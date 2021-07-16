@@ -1,8 +1,8 @@
 {
-    "name": "macsidigital/laravel-zoom",
+    "name": "disruptiveadvertising/laravel-zoom",
     "description": "Laravel Zoom package",
     "homepage": "https://github.com/MacsiDigital/laravel-zoom",
-    "keywords": ["macsidigital", "laravel-zoom", "zoom", "laravel", "api", "client"],
+    "keywords": ["disruptiveadvertising", "laravel-zoom", "zoom", "laravel", "api", "client"],
     "license": "MIT",
     "type": "library",
     "authors": [
