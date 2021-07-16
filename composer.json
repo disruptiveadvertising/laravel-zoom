@@ -1,7 +1,7 @@
 {
     "name": "disruptiveadvertising/laravel-zoom",
     "description": "Laravel Zoom package",
-    "homepage": "https://github.com/MacsiDigital/laravel-zoom",
+    "homepage": "https://github.com/DisruptiveAds/laravel-zoom",
     "keywords": ["disruptiveadvertising", "laravel-zoom", "zoom", "laravel", "api", "client"],
     "license": "MIT",
     "type": "library",
@@ -23,13 +23,13 @@
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
-        "psr-4": {
-            "MacsiDigital\\Zoom\\": "src"
+        "psr-0": {
+            "DisruptiveAds\\Zoom\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MacsiDigital\\Zoom\\Tests\\": "tests"
+            "DisruptiveAds\\Zoom\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MacsiDigital\\Zoom\\Providers\\ZoomServiceProvider"
+                "DisruptiveAds\\Zoom\\Providers\\ZoomServiceProvider"
             ],
             "aliases": {
-                "Zoom": "MacsiDigital\\Zoom\\Facades\\Zoom"
+                "Zoom": "DisruptiveAds\\Zoom\\Facades\\Zoom"
             }
         }
     },

@@ -1,15 +1,15 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class Account extends Model
 {
     // API included but its not open to the majority of API Users
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAccount';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAccount';
-    
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\StoreAccount';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateAccount';
+
     protected $endPoint = 'accounts';
 
     protected $allowedMethods = ['get', 'post', 'delete'];

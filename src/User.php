@@ -1,16 +1,16 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
 use Illuminate\Support\Facades\Validator;
-use MacsiDigital\Zoom\Exceptions\FileTooLargeException;
-use MacsiDigital\Zoom\Exceptions\ValidationException;
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Exceptions\FileTooLargeException;
+use DisruptiveAds\Zoom\Exceptions\ValidationException;
+use DisruptiveAds\Zoom\Support\Model;
 
 class User extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreUser';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateUser';
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\StoreUser';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateUser';
 
     protected $attributes = [
         'action' => 'create',

@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Tests\Feature;
+namespace DisruptiveAds\Zoom\Tests\Feature;
 
 use PHPUnit\Framework\TestCase;
 

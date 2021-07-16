@@ -1,14 +1,14 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class Role extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRole';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateRole';
-    
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\StoreRole';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateRole';
+
     protected $endPoint = 'roles';
 
     protected $allowedMethods = ['find', 'get', 'post', 'patch', 'delete'];

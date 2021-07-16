@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class RegistrationQuestion extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\UpdateRegistrationQuestion';
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\UpdateRegistrationQuestion';
 
     protected $endPoint = 'meetings/{meeting:id}/registrants/questions';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Tests\Resources;
+namespace DisruptiveAds\Zoom\Tests\Resources;
 
 class EndPoint
 {

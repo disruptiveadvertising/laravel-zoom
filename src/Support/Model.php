@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom\Support;
+namespace DisruptiveAds\Zoom\Support;
 
-use MacsiDigital\API\Support\ApiResource;
+use DisruptiveAds\API\Support\ApiResource;
 
 class Model extends ApiResource
 {

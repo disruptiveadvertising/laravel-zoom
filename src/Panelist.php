@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class Panelist extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StorePanelist';
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\StorePanelist';
 
     protected $endPoint = 'webinars/{webinar:id}/panelists';
 

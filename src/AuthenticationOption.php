@@ -1,11 +1,11 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class AuthenticationOption extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAuthenticationOption';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAuthenticationOption';
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\StoreAuthenticationOption';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateAuthenticationOption';
 }

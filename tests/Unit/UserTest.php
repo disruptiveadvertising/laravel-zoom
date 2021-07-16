@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom\Tests\Unit;
+namespace DisruptiveAds\Zoom\Tests\Unit;
 
-use MacsiDigital\Zoom\Tests\TestCase;
+use DisruptiveAds\Zoom\Tests\TestCase;
 
 class UserTest extends TestCase
 {

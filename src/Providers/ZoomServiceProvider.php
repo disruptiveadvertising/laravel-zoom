@@ -1,6 +1,6 @@
 <?php
 
-namespace MacsiDigital\Zoom\Providers;
+namespace DisruptiveAds\Zoom\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,9 +31,9 @@ class ZoomServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'zoom');
 
         // Register the main class to use with the facade
-        $this->app->singleton('zoom', 'MacsiDigital\Zoom\Contracts\Zoom');
-        $this->app->bind('MacsiDigital\Zoom\Contracts\Zoom', 'MacsiDigital\Zoom\Support\Entry');
+        $this->app->singleton('zoom', 'DisruptiveAds\Zoom\Contracts\Zoom');
+        $this->app->bind('DisruptiveAds\Zoom\Contracts\Zoom', 'DisruptiveAds\Zoom\Support\Entry');
 
-        $this->app->bind('zoom.client', 'MacsiDigital\Zoom\Support\Client');
+        $this->app->bind('zoom.client', 'DisruptiveAds\Zoom\Support\Client');
     }
 }

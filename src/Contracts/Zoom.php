@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom\Contracts;
+namespace DisruptiveAds\Zoom\Contracts;
 
-use MacsiDigital\API\Facades\Client as ClientFacade;
+use DisruptiveAds\API\Facades\Client as ClientFacade;
 
 interface Zoom extends ClientFacade
 {

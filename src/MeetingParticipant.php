@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class MeetingParticipant extends Model
 {
-    //protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRegistrant';
+    //protected $insertResource = 'DisruptiveAds\Zoom\Requests\StoreRegistrant';
 
     protected $endPoint = '/metrics/meetings/{meeting:id}/participants';
 

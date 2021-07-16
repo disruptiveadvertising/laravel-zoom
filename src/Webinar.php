@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class Webinar extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreWebinar';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateWebinar';
+    protected $insertResource = 'DisruptiveAds\Zoom\Requests\StoreWebinar';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateWebinar';
 
     protected $endPoint = 'webinars';
 

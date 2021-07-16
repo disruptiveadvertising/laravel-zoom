@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\API\Support\Resource;
+use DisruptiveAds\API\Support\Resource;
 
 class PollQuestion extends Resource
 {

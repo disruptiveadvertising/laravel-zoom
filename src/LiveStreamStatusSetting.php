@@ -1,8 +1,8 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Resource;
+use DisruptiveAds\Zoom\Support\Resource;
 
 class LiveStreamStatusSetting extends Resource
 {

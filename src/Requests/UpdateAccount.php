@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom\Requests;
+namespace DisruptiveAds\Zoom\Requests;
 
-use MacsiDigital\API\Support\PersistResource;
+use DisruptiveAds\API\Support\PersistResource;
 
 class UpdateAccount extends PersistResource
 {
     protected $persistAttributes = [
-        
+
     ];
 }

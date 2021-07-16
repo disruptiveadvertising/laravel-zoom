@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class Setting extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateSetting';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateSetting';
 
     protected $customEndPoints = [
         'get' => 'users/{user:id}/settings',

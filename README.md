@@ -5,35 +5,25 @@
 ![Header Image](https://github.com/MacsiDigital/repo-design/raw/master/laravel-zoom/header.png)
 
 <p align="center">
- <a href="https://github.com/MacsiDigital/laravel-zoom/actions?query=workflow%3ATests"><img src="https://github.com/MacsiDigital/laravel-zoom/workflows/Tests/badge.svg" style="max-width:100%;"  alt="tests badge"></a>
+ <a href="https://github.com/disruptiveadvertising/laravel-zoom/actions?query=workflow%3ATests"><img src="https://github.com/MacsiDigital/laravel-zoom/workflows/Tests/badge.svg" style="max-width:100%;"  alt="tests badge"></a>
  <a href="https://packagist.org/packages/macsidigital/laravel-zoom"><img src="https://img.shields.io/packagist/v/macsidigital/laravel-zoom.svg?style=flat-square" alt="version badge"/></a>
  <a href="https://packagist.org/packages/macsidigital/laravel-zoom"><img src="https://img.shields.io/packagist/dt/macsidigital/laravel-zoom.svg?style=flat-square" alt="downloads badge"/></a>
 </p>
 
 Laravel Zoom API Package
 
-## Support us
-
-We invest a lot in creating [open source packages](https://macsidigital.co.uk/open-source), and would be grateful for a [sponsor](https://github.com/sponsors/MacsiDigital) if you make money from your product that uses them.
-
-## Our API mission!
-
-Let's be honest, API's are all over the place and so inconsistent.  We are therefore setting out to try to change this for all Laravel user's who need an API client and have developed an [API Client Library](https://github.com/MacsiDigital/laravel-api-client), which our API's are built on top of, to give a common set of consistent functionality.
-
 ## Updates & Issues
 
-We only accept Issues through [Github](https://github.com/MacsiDigital/laravel-zoom)
+We only accept Issues through [Github](https://github.com/disruptiveadvertising/laravel-zoom)
 
 We update security and bug fixes as soon as we can, other pull requests and enhancements will be as and when we can do them.
-
-You can follow us on Twitter where we will post any major updates. [MacsiDigital Twitter](https://twitter.com/MacsiDigital)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require macsidigital/laravel-zoom
+composer require disruptiveadvertising/laravel-zoom
 ```
 
 For versioning:-
@@ -44,14 +34,14 @@ For versioning:-
 
 - 3.0 - Laravel 6.0 - Maintained, feel free to create pull requests.  This is open source which is a 2 way street.
 
-- 4.0 - Laravel 7.0 - 8.0 - Maintained, feel free to create pull requests.  This is open source which is a 2 way street.
+- 4.0+ - Laravel 7.0 - 8.0 - Maintained, feel free to create pull requests.  This is open source which is a 2 way street.
 
 ### Configuration file
 
 Publish the configuration file
 
 ```bash
-php artisan vendor:publish --provider="MacsiDigital\Zoom\Providers\ZoomServiceProvider"
+php artisan vendor:publish --provider="DisruptiveAds\Zoom\Providers\ZoomServiceProvider"
 ```
 
 This will create a zoom.php config file within your config directory:-
@@ -110,14 +100,14 @@ There are 2 main ways to work with models, to call them directly from the access
 
     //or
     
-    $zoom = new \MacsiDigital\Zoom\Support\Entry;
-    $user = new \MacsiDigital\Zoom\User($zoom);
+    $zoom = new \DisruptiveAds\Zoom\Support\Entry;
+    $user = new \DisruptiveAds\Zoom\User($zoom);
 ```
 
 ### Custom settings
-If you would like to use different configuration values than those in your zoom.php config file, you can feed those as parameters to \MacsiDigital\Zoom\Support\Entry as shown below.
+If you would like to use different configuration values than those in your zoom.php config file, you can feed those as parameters to \DisruptiveAds\Zoom\Support\Entry as shown below.
 ``` php
-    $zoom = new \MacsiDigital\Zoom\Support\Entry($apiKey, $apiSecret, $tokenLife, $maxQueries, $baseUrl);
+    $zoom = new \DisruptiveAds\Zoom\Support\Entry($apiKey, $apiSecret, $tokenLife, $maxQueries, $baseUrl);
 ```
 
 ### Working with models
@@ -861,7 +851,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security-related issues, please email [info@macsi.co.uk](mailto:info@macsi.co.uk) instead of using the issue tracker.
+If you discover any security-related issues, please use the issue tracker in Github.
 
 ## Credits
 

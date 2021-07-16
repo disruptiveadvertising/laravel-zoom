@@ -1,12 +1,12 @@
 <?php
 
-namespace MacsiDigital\Zoom;
+namespace DisruptiveAds\Zoom;
 
-use MacsiDigital\Zoom\Support\Model;
+use DisruptiveAds\Zoom\Support\Model;
 
 class MeetingOccurrence extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateOccurrence';
+    protected $updateResource = 'DisruptiveAds\Zoom\Requests\UpdateOccurrence';
 
     protected $endPoint = 'meetings/{meeting:id}';
 
