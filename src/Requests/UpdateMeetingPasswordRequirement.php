@@ -2,7 +2,7 @@
 
 namespace DisruptiveAds\Zoom\Requests;
 
-use DisruptiveAds\API\Support\PersistResource;
+use MacsiDigital\API\Support\PersistResource;
 
 class UpdateMeetingPasswordRequirement extends PersistResource
 {

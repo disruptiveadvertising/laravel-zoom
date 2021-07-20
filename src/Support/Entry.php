@@ -2,8 +2,8 @@
 
 namespace DisruptiveAds\Zoom\Support;
 
-use DisruptiveAds\API\Support\Authentication\JWT;
-use DisruptiveAds\API\Support\Entry as ApiEntry;
+use MacsiDigital\API\Support\Authentication\JWT;
+use MacsiDigital\API\Support\Entry as ApiEntry;
 use DisruptiveAds\Zoom\Facades\Client;
 
 class Entry extends ApiEntry

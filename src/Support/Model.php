@@ -2,11 +2,11 @@
 
 namespace DisruptiveAds\Zoom\Support;
 
-use DisruptiveAds\API\Support\ApiResource;
+use MacsiDigital\API\Support\ApiResource;
 
 class Model extends ApiResource
 {
     protected $apiDataField = '';
 
-    protected $dateFormat = \DateTime::ATOM;
+    protected $dateFormat = \DateTimeInterface::ATOM;
 }

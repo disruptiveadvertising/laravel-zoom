@@ -2,7 +2,7 @@
 
 namespace DisruptiveAds\Zoom;
 
-use DisruptiveAds\API\Support\Resource;
+use MacsiDigital\API\Support\Resource;
 
 class RegistrantCustomQuestion extends Resource
 {
