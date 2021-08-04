@@ -10,7 +10,7 @@ class PastMeeting extends Model
 
     protected $primaryKey = 'uuid';
 
-    protected $allowedMethods = ['find'];
+    protected $allowedMethods = ['find', 'get'];
 
     protected $apiDataField = '';
 
@@ -34,5 +34,10 @@ class PastMeeting extends Model
     public function poll()
     {
         return $this->hasOne(PollResult::class);
+    }
+
+    public function meeting()
+    {
+        return $this->hasOne(Meeting::class);
     }
 }

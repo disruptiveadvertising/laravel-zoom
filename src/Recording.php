@@ -8,11 +8,17 @@ class Recording extends Model
 {
     protected $customEndPoints = [
         'get' => 'users/{user:id}/recordings',
+        'getAll' => 'recordings'
     ];
 
-    protected $allowedMethods = ['get'];
+    protected $allowedMethods = ['get', 'getAll'];
 
-    protected $apiMultipleDataField = 'meetings';
+    protected $apiMultipleDataField = 'recordings';
+
+    public function getApiMultipleDataField()
+    {
+        return $this->apiMultipleDataField;
+    }
 
     public function recordingFiles()
     {

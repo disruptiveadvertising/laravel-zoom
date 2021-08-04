@@ -41,6 +41,12 @@ class Meeting extends Model
     {
         return $this->hasMany(MeetingOccurrence::class);
     }
+
+    public function pastMeetings()
+    {
+        return $this->hasMany(PastMeeting::class);
+    }
+
     public function participants()
     {
         return $this->hasMany(MeetingParticipant::class);
